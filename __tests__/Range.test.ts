@@ -44,7 +44,7 @@ describe('Range', () => {
 
       expect(value).toEqual('Kwickiemart');
     });
-    it('should return value using A1 notation', () => {
+    it('should return value using a1 notation', () => {
       const value = sheet.getRange('C6').getValue();
 
       expect(value).toEqual('Wholepaycheck');
@@ -59,7 +59,7 @@ describe('Range', () => {
 
       expect(value).toEqual('Gasmart');
     });
-    it('should return value using A1 notation plus sheet reference', () => {
+    it('should return value using a1 notation plus sheet reference', () => {
       const value = sheet.getRange('TestSheet!C5').getValue();
 
       expect(value).toEqual('Gasmart');
